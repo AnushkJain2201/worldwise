@@ -1,9 +1,12 @@
-const Pricing = () => {
-  return (
-    <div>
-      Pricing
-    </div>
-  )
-}
+import PageNav from "../components/PageNav";
 
-export default Pricing
+const Pricing = () => {
+	return (
+		<div>
+			<PageNav />
+			<h1>Pricing</h1>
+		</div>
+	);
+};
+
+export default Pricing;

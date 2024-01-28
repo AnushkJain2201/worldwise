@@ -1,9 +1,12 @@
-const Product = () => {
-  return (
-    <div>
-      Product
-    </div>
-  )
-}
+import PageNav from "../components/PageNav";
 
-export default Product
+const Product = () => {
+	return (
+		<div>
+			<PageNav />
+			Product
+		</div>
+	);
+};
+
+export default Product;

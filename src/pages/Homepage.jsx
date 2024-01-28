@@ -1,7 +1,14 @@
+import { Link } from "react-router-dom"
+import PageNav from "../components/PageNav"
+
 const Homepage = () => {
   return (
     <div>
-      Worldwise
+
+      <PageNav />
+      <h1>Worldwise</h1>
+
+      <Link to="/pricing">Pricing</Link>
     </div>
   )
 }
