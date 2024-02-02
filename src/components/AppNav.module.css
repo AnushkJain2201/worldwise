@@ -1,0 +1,10 @@
+.nav {
+    background-color: rebeccapurple;
+    height: 50px;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}

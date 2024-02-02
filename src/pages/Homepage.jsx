@@ -6,9 +6,9 @@ const Homepage = () => {
     <div>
 
       <PageNav />
-      <h1>Worldwise</h1>
+      <h1 className="test">Worldwise</h1>
 
-      <Link to="/pricing">Pricing</Link>
+      <Link to="/app">Go To the app</Link>
     </div>
   )
 }
