@@ -6,6 +6,7 @@ import AppLayout from "./pages/AppLayout";
 import PageNotFound from "./pages/PageNotFound";
 import Login from "./pages/Login";
 import CityList from "./components/CityList";
+import City from "./components/City";
 import { useEffect, useState } from "react";
 import CountriesList from "./components/CountriesLIst";
 
@@ -43,6 +44,7 @@ const App = () => {
 				<Route path='app' element={<AppLayout />}>
 					<Route index element={<CityList cities={cities}  isLoading={isLoading}/>} />
 					<Route path='cities' element={<CityList cities={cities}  isLoading={isLoading}/>} />
+					<Route path='cities/:id' element={<City />} />
 					<Route path='countries' element={<CountriesList cities={cities} />} />
 					<Route path='form' element={<p>Form</p>} />
 				</Route>
